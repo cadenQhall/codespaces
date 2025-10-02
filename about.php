@@ -19,18 +19,13 @@
                 </div>
                 <div class="about__right">
                     <h1>About Me</h1>
-                    <h3 class="about-name">My Name</h3>
+                    <h3 class="about-name">Caden Hall</h3>
                     <p>Welcome to my about page! Here you can find more information about my background, skills, and interests.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut sem eu libero finibus scelerisque a vel nulla. Donec venenatis magna justo, at fringilla sapien convallis in. Suspendisse dapibus est sit amet mollis gravida. Aliquam vulputate purus id magna semper elementum. Praesent at faucibus quam, eget convallis risus. In eget magna semper nunc blandit elementum eget sed tellus. Sed a pulvinar sapien. Aenean vulputate enim vel finibus scelerisque. Vivamus vestibulum, risus non scelerisque hendrerit, diam magna efficitur dui, in rhoncus lorem arcu sed quam. Donec viverra arcu vel dapibus condimentum. Sed mattis placerat nulla, sit amet malesuada nisi molestie a. Nulla malesuada euismod massa id scelerisque. Morbi nec lectus ligula. Mauris sed sapien quis eros aliquet fringilla id ut felis. Sed eget condimentum leo. Morbi congue sapien eget iaculis pellentesque.</p>
-                    <p>Curabitur pellentesque pellentesque arcu, ac suscipit risus maximus at. Ut sed leo sit amet ante laoreet finibus non et neque. Nam ornare orci nisl, vel sagittis turpis laoreet eget. Nulla bibendum nunc vitae metus posuere, sit amet varius purus porttitor. Pellentesque dapibus dolor in feugiat suscipit. Donec commodo mattis tellus sed imperdiet. Maecenas a tempus ex. Donec aliquet lacus sed metus pellentesque tincidunt. Duis fringilla urna tortor, nec vulputate lacus facilisis sit amet. Mauris quis dui vitae arcu pulvinar elementum. Morbi sit amet nisl sit amet leo gravida elementum sed sit amet odio. Nulla facilisi. Quisque fringilla ornare nunc, vel volutpat erat ultricies non. Suspendisse posuere, tellus id volutpat facilisis, urna odio mollis nisi, quis rhoncus est ex ac lectus. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    <p>My name is Caden. I am 14 years old. I like arts and crafts including epoxy resin, drawing, and pottery. I like listening to Audiobooks. My favorite books are Harry Potter, The Mysterious Benedict Society, and The Hunger Games. I have a fish named Aureus and our family has a dog named Chase. My favorite food is potatoes and my favorite dessert is chocolate trifle.</p>
                     <div class="about__socials"><?php
 
                         // Set socials.
                         $socials = [
-                            'instagram' => 'https://www.instagram.com',
-                            'snapchat'  => 'https://www.snapchat.com',
-                            'facebook'  => 'https://www.facebook.com',
-                            'imessage'  => 'tel:1231231234'
                         ];
 
                         // Loop.
