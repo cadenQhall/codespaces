@@ -22,6 +22,25 @@
                     <h3 class="about-name">Caden Hall</h3>
                     <p>Welcome to my about page! Here you can find more information about my background, skills, and interests.</p>
                     <p>My name is Caden. I am 14 years old. I like arts and crafts including epoxy resin, drawing, and pottery. I like listening to Audiobooks. My favorite books are Harry Potter, The Mysterious Benedict Society, and The Hunger Games. I have a fish named Aureus and our family has a dog named Chase. My favorite food is potatoes and my favorite dessert is chocolate trifle.</p>
+                    <table>
+                        <thead>
+                           <tr>
+                            <th>Hobby</th>
+                            <th>About</th>
+                           </tr> 
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td>Pottery:</td>
+                              <td>Spining clay on a pottery wheel and then bisque firing it before glazing and then firing once again.</td>  
+                            </tr>
+                                <td>Epoxy:</td>
+                                <td>Mixing two cemicals together in a one to one ratio and then placing it into a mold to harden over twenty four hours.</td>
+                            <tr>
+                                <td>Drawing:</td>
+                                <td>Doodling small pictures on small pieces of paper</tr>
+                        </tbody>
+                    </table>
                     <div class="about__socials"><?php
 
                         // Set socials.
