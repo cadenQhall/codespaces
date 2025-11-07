@@ -13,8 +13,8 @@
         <!-- Get started here -->
          <div id="header">
             <div class="header-inner header-left">
-                <button id="hamberger">
-                    <?php include dirname(__FILE__) . '/assets/hamberger.svg'; ?>
+                <button id="hamburger">
+                    <?php include dirname(__FILE__) . '/assets/hamburger.svg'; ?>
                 </button>
                 <img id="logo" src="/assets/youtube.svg" />
             </div>
@@ -25,7 +25,7 @@
                 </form>
                 <button id="voice-search">
                     <img src="/assets/microphone.svg" />
-                <button/>
+                </button>
             </div>
             <div class="header-inner header-right">
                 <button id="settings">
