@@ -37,6 +37,67 @@
             </button>
             </div>
         </div>
+        <div id="content">
+            <div id="side-menu"><?php
+
+            // Menu arrey.
+            $menu_array = [
+                'menu' => [
+                   '/'       => 'Home',
+                   '/shorts/' => 'Shorts',
+                ],
+                'subscriptions' => [
+                        '1'              =>    'Channel 1',
+                        '2'              =>    'Channel 2',
+                        '3'              =>    'Channel 3',
+                        '4'              =>    'Channel 4',
+                        '5'              =>    'Channel 5'
+                    ],
+                    'you'          => [
+                        '/history'       => 'History',
+                        '/playlists'     => 'Playlists',
+                        '/watch-later'   => 'Watch later',
+                        '/liked'         => 'Liked Videos',
+                        '/your-videos'   => 'Your Videos',
+                        '/downloads'     => 'Downloads'
+                    ],
+                    'explore'       =>  [
+                        '/shopping'       => 'Shopping',
+                        '/music'          => 'Music',
+                        '/movie-tv'       => 'Movies & TV',
+                    ],
+                    'account'       =>  [
+                        '/settings'       => 'Settings',
+                        '/report'         => 'Report',
+                        '/help'           => 'Help',
+                        '/feedback'       => 'Send Feedback',
+                    ],
+                ];
+                
+                // Menu loop.
+                foreach( $menu_array as $section => $menu_items ) {
+
+                    // Output section. ?>
+                    <div class="menu-section menu-section-<?php echo $section; ?>"><?php
+                    
+                        // Menu item loop.
+                        foreach( $menu_items as $url => $label) {
+
+                            // Output. ?>
+                            <div class="menu-item menu-item-section-<?php echo $section; ?> menu-item-<?php echo str_replace( '/', '', $url); ?>"
+
+                        }
+                    
+                    </div><?php
+
+                }
+
+                ?>
+
+            </div>
+            <div id="main-content">
+            </div>
+        </div>
         <!-- https://picsum.photos/530/300 -->
     </body>
 </html>

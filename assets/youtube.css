@@ -125,7 +125,7 @@ button#settings {
 
 button#settings svg path,
 button#user svg path,
-button#voice-search svg path {
+button#voice-search svg path  {
     fill: #fff;
 }
 
