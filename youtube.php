@@ -72,7 +72,7 @@
                     '/help'           => 'Help',
                     '/feedback'       => 'Send Feedback',
                     ],
-            ];
+                ];
                 
                 // Menu loop.
                 foreach( $menu_array as $section => $menu_items ) {
@@ -95,6 +95,30 @@
 
             </div>
             <div id="main-content">
+                <div id="category-filter"><?php
+
+                    // Category array.
+                    $categorys = [
+                        'All',
+                        'Podcast',
+                        'Gaming',
+                        'Reaction Videos',
+                        'Music',
+                        'Mixes',
+                        'Esports',
+                        'Live'
+                    ];
+                    
+                    // Loop through categorys.
+                    foreach( $categories as $category ) {
+
+                        // Output category. ?>
+                        <a href="<?php echo '/' . urlencode( strtolower( $category ) ); ?>">
+                            <?php echo $category; ?>
+                        </a><?php
+
+                    } ?>
+
             </div>
         </div>
         <!-- https://picsum.photos/530/300 -->
