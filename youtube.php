@@ -119,8 +119,45 @@
 
                     } ?>
 
+                </div>
+                </div id="video-content"><?php
+                    
+                     // Title array.
+                     $titles = [
+                        'How to Build a House',
+                        'You would not belive what just happened!',
+                        'Chelsea vs. Bournemouth',
+                        'Liverpool vs. Manchester City',
+                        'Ben Shapiro Reacts to Woke Comedians',
+                        'Live 2025 No Gi Worlds',
+                        'Breaking News Today',
+                        'Weather Report for Pulaski, VA'
+                    ];
+                    
+                    // Videos.
+                    $videos = range(0, 8 );
+
+                    // Loop through videos.
+                    foreach( $videos as $video) {
+
+                        // Ramdom title.
+                        $title = $titles[rand(0 , 8)];
+
+                        // Output. ?>
+                        <div id="video-<?php echo $video; ?>" class="video-item">
+                            <div class="video-item-image">
+                                <img src="https://picsum.photos/id/<?php echo rand( 0, 20); ?>/530/300" />
+                            </div>
+                            <div class="video-item-text">
+                                <h3><?php echo $title; ?></h3>
+                                <p>Channel <?php echo rand(1, 500); ?></p>
+                                <p><?php echo rand(1, 9); ?> hours ago</p>
+                            </div>
+                        </div><?php
+
+                    } ?>
+
             </div>
         </div>
-        <!-- https://picsum.photos/530/300 -->
     </body>
 </html>
