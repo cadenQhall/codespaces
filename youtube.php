@@ -85,7 +85,7 @@
 
                             // Output. ?>
                             <div class="menu-item menu-item-section-<?php echo $section; ?> menu-item-<?php echo str_replace( '/', '', $url); ?>">
-                                <a href="<?php echo $url; ?>"><?php echo $lable; ?></a>
+                                <a href="<?php echo $url; ?>"><?php echo $label; ?></a>
                             </div><?php
                         } ?>
                     
@@ -120,7 +120,7 @@
                     } ?>
 
                 </div>
-                </div id="video-content"><?php
+                <div id="video-content"><?php
                     
                      // Title array.
                      $titles = [
